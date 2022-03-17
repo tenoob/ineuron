@@ -1,0 +1,76 @@
+1. What is the result of the code, and explain?
+
+>>> X = 'iNeuron'
+>>> def func():
+print(X)
+
+>>> func()
+
+Ans. It will print iNeuron as the function func() returns the value the value of X
+
+
+2. What is the result of the code, and explain?
+
+>>> X = 'iNeuron'
+>>> def func():
+X = 'NI!'
+
+>>> func()
+>>> print(X)
+
+Ans. It will print iNeuron as the value of X is globally defined as iNeuron which is not affected by the value which is initialized inside the func()
+
+
+3. What does this code print, and why?
+
+>>> X = 'iNeuron'
+>>> def func():
+X = 'NI'
+print(X)
+
+>>> func()
+>>> print(X)
+
+Ans. In the func() call it will print NI! as the value of X is defined as NI! Inside the function and in the next line it will print iNeruron as it refers to the global X which is not affected by the function 
+
+4. What output does this code produce? Why?
+
+>>> X = 'iNeuron'
+>>> def func():
+global X
+X = 'NI'
+
+>>> func()
+>>> print(X)
+
+Ans . here it will print NI! For both func() and X as in the func() we are reffering tthe global X and changing its value to NI! ,by global I mean the X = iNeuron one as its defined outside the function and is changed.
+
+
+
+5. What about this code—what’s the output, and why?
+
+>>> X = 'iNeuron'
+>>> def func():
+X = 'NI'
+def nested():
+print(X)
+nested()
+
+>>> func()
+>>> X
+
+Ans. It will print NI! In the func() as in the func() we are assigning a variable X as NI! and define a nested function inside it will prints the value of X as the nested() is inside another function(“func()) it will access X of its parent class(‘func()”) thats why it print NI! And in last line it refers to the global X with value iNeuron
+
+6. How about this code: what is its output in Python 3, and explain?
+
+>>> def func():
+X = 'NI'
+def nested():
+nonlocal X
+X = 'Spam'
+nested()
+print(X)
+
+>>> func()
+
+Ans. We have a nested function (nested()) which has a nonlocal variable X which means its neither global nor local. In the func() we initialize value of X as “NI!” then create a nested function with a nonlocal variable X which now takes In subsequent entries and the result will be new x. then we assigne x as Spam and call the nested() and print value of X which will come out to be Spam 
