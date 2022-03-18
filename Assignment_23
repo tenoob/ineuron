@@ -1,0 +1,42 @@
+1. What is the result of the code, and why?
+> def func(a, b=6, c=8):
+print(a, b, c)
+> func(1, 2)
+
+Ans . func(1,2) will print 1,2,8 as in the function call we have passes 1 as the value of a, the value of b was initially 6 but we pass 6 as the argument and the value of c will be 8 as its the default value which was initialized by the func()
+
+2. What is the result of this code, and why?
+> def func(a, b, c=5):
+print(a, b, c)
+> func(1, c=3, b=2)
+
+Ans. The function will print 1 , 2,3 as in the function call we are passing value of a as 1 and for b and c we are giving b=2 ,c=3 so it will take the values respectively even though there arrangement is different in the function call then what was given in the function definition.
+
+3. How about this code: what is its result, and why?
+> def func(a, *pargs):
+print(a, pargs)
+> func(1, 2, 3)
+
+Ans. The code will print 1 , (2,3) as we are passing value of a as 1 and the second argument *kargs is an iterable object (tuple) which we are using as * is an unpacking operator
+
+4. What does this code print, and why?
+> def func(a, **kargs):
+print(a, kargs)
+> func(a=1, c=3, b=2)
+
+Ans. The code will print value of a as 1 and **kargs is a similar to *args but it stores data In form of keywords like dictionary so it will have {‘c’:3, ’b’:2}
+
+
+5. What gets printed by this, and explain?
+> def func(a, b, c=8, d=5): print(a, b, c, d)
+> func(1, *(5, 6))
+
+Ans. The code will print 1,5,6,5 as the value of a assigned 1 and by using * operator we can iterate the given tuple of due to it b will be 5 ,c will be 6 and d will have its default value 8
+
+6. what is the result of this, and explain?
+> def func(a, b, c): a = 2; b[0] = 'x'; c['a'] = 'y'
+> l=1; m=[1]; n={'a':0}
+> func(l, m, n)
+
+
+Ans, after the function call the value of l=1 , m=[‘x] , n ={‘a’:’y’} as initially the value are l=1; m=[1]; n={'a':0} in the func() we are refereeing to l as a , m as b , n as c so its making changes on l,m,n but with some other name.
