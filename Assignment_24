@@ -1,0 +1,26 @@
+1.What is the relationship between def statements and lambda expressions ?
+Ans, Lambda and def both generate the same type of function - they have the same metadata and capabilities. Their technical distinction is syntactical .A lambda expression is one that generates a function. A def is a statement that generates a function.
+
+2.What is the benefit of lambda?
+Ans.In Python, the lambda keyword is used to declare tiny anonymous functions as a convenience.
+
+3.Compare and contrast map, filter, and reduce.
+Ans. The map() method iterates through all of the elements in the specified iterable and runs the function we passed as an argument on each one. Filter(), like map(), builds a new list from a function object and an iterable. filter() creates a new list that only contains entries that meet a specific criteria, i.e. the function we gave returns True. reduce() differs from map() and filter() in its operation (). It does not generate a new list depending on the function and iterable arguments. It instead produces a single value.
+
+4.What are function annotations, and how are they used?
+Ans. Annotations for parameters and return values are absolutely optional. At compilation time, function annotations allow you to associate certain portions of a function with arbitrary Python expressions.
+
+5.What are recursive functions, and how are they used?
+Ans. A recursive function is a function in code that executes itself. Recursive functions can be either basic or complex. They enable more efficient code development, such as listing or compiling groups of integers, strings, or other variables using a single repeated operation.
+
+6.What are some general design guidelines for coding functions?
+Ans. There are some guidelines and rules which must be followed like:
+Safe
+Reliable
+Testable
+Maintainable
+Portable
+Secure
+
+7.Name three or more ways that functions can communicate results to a caller.
+Ans.The User specified functions can be defined in a variety of ways. The types of functions accessible in Python are shown below. Python There is no parameter and no return value for this function. No-argument function with a Return value. Python No-return function with an argument. The function has an argument and a return value.
