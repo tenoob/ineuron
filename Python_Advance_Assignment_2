@@ -1,0 +1,49 @@
+Q1. What is the relationship between classes and modules?
+Ans. In Python, the distinction between a class and a module is that a class is used to describe a blueprint for a given object, whereas a module is used to reuse a given piece of code inside another application.
+
+Q2. How do you make instances and classes?
+Ans. for creating a class instance in python we call the class name and pass in whatever arguments its __init__ method accepts. Example obj = Student(“raj”). Here Student is a class and raj is the argument which is accepted by the init
+. to create a class we first write the keyword class followed by class name and Collen. then we can write all the methods in the next line after giving some indentation,
+Example 
+class Student:
+		#statement1…
+#statement2	
+
+
+Q3. Where and how should be class attributes created?
+Ans. class attributes are mostly placed at top, right below the class header or outside all methods. 
+Example:
+ class Person:
+	No_of_eyes = 2
+	def __init__(self,name):
+		self.name= name
+	
+
+Q4. Where and how are instance attributes created?
+Ans. instance attributes are place inside a method
+Example:
+ class Person:
+	No_of_eyes = 2
+	def __init__(self,name):
+		self.name= name
+
+Here name is an instance attribute.
+
+
+Q5. What does the term “self” in a Python class mean?
+Ans. The self argument is unique in that it always refers to the class's current instance.
+
+Q6. How does a Python class handle operator overloading?
+Ans. Python offers a special function or magic function that is automatically run when it is connected with that particular operator to perform operator overloading. When we use the + operator, 
+example, the magic function __add__ is immediately performed, which defines the action for the + operator.
+
+Q7. When do you consider allowing operator overloading of your classes?
+Ans. when we need to provide an intuitive interface to users of the class and make templates to work well with classes and built-in types.
+
+Q8. What is the most popular form of operator overloading?
+Ans. A very popular and convenient example is the Addition (+) operator. Just think how the ‘+’ operator operates on two numbers and the same operator operates on two strings. It performs addition on numbers whereas it performs concatenation on strings.
+
+
+Q9. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+Ans. 2 most important concepts for OOPs are, Inheritance and Polymorphism
+
