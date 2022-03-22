@@ -1,0 +1,16 @@
+Q1. What is the meaning of multiple inheritance?
+Ans. A subclass can inherit from two or more superclasses, which is known as multiple inheritances.
+
+Q2. What is the concept of delegation?
+Ans. For reusing code across several classes, delegation is an alternative to inheritance. Inheritance re-uses the IS-A relationship, whereas delegation re-uses the HAS-A reference relationship.
+
+Q3. What is the concept of composition?
+Ans. A composition is a notion that represents a connection. It allows for the creation of complicated kinds by merging items of different types. This indicates that an object of the type Composite can contain an object of the class Component. Because of this link, a Composite has a Component.
+
+Q4. What are bound methods and how do we use them?
+Ans. A bound method is one that is reliant on the class instance as the first parameter. The instance is supplied as the first parameter, and it is used to access the variables and functions.
+
+Q5. What is the purpose of pseudoprivate attributes?
+Ans. Pseudoprivate attributes are also valuable in bigger frameworks or tools, both to prevent providing new method names that may mistakenly obscure definitions elsewhere in the class tree and to limit the possibility of internal methods being substituted by names specified further down the tree.
+
+
