@@ -1,0 +1,15 @@
+1. What is the concept of an abstract superclass?
+Ans, If a class has one or more abstract methods, it is referred to as an Abstract class. An abstract method is one that has been defined but has no implementation. Abstract classes are not instantiable, and their abstract methods must be implemented by their subclasses. When alternative approaches, such as hasattr(), might be clunky or slightly incorrect, abstract base classes give the means to construct interfaces.
+
+2. What happens when a class statement’s top level contains a basic assignment statement?
+Ans. It gives the class a data property. This, like other class properties, will be shared by all instances; however, data attributes are not callable method functions.
+
+3. Why does a class need to manually call a superclass’s __init__ method?
+Ans. The primary reason for always calling base class _init__ is that base classes often generate member variables and set them to default values. So, if you don't call base class init, none of that code is performed, and you end up with a base class with no member variables.
+
+4. How can you augment, instead of completely replacing, an inherited method?
+Ans. to augment instead of completely replacing an inherited method,redefine it in a subclass, but call back to the suoerclass’s version of the method manually from the new version of the method in the subclass.
+
+5. How is the local scope of a class different from that of a function?
+Ans. A class is a local scope with access to other local scopes, but it does not act as an enclosing local scope for additional nested code. After the class statement is executed, the class local scope, like modules, transforms into an attribute namespace.
+
