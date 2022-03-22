@@ -1,0 +1,15 @@
+Q1. What is the concept of a metaclass?
+Ans. A metaclass in Python is a class of a class that defines how a class behaves. A class is itself an instance of a metaclass
+
+Q2. What is the best way to declare a class’s metaclass?
+Ans. In Python 3 use a keyword argument in the class header line:
+like 
+  class Foo(object, metaclass=something):
+
+
+Q3. How do class decorators overlap with metaclasses for handling classes?
+Ans. Class decorators and metaclasses may both be used to manage classes, and both are automatically activated at the conclusion of a class statement. Decorators rebind a class name to the result of a callable, whereas metaclasses route class creation through a callable; yet, both hooks can be used for comparable reasons.
+
+Q4. How do class decorators overlap with metaclasses for handling instances?
+Ans. We may manage class instances using both class decorators and metaclasses by creating a wrapper object to intercept instance creation operations. Decorators can rebind the class name to a callable that runs when an instance is created and keeps the original class object. Metaclasses can achieve the same thing, but they may have a little disadvantage because they must additionally generate the class object.
+
