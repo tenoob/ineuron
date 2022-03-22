@@ -1,0 +1,27 @@
+Q1. What is the purpose of Python’s OOP?
+Ans.  the aim of oops is to implement real-world entities like inheritance, polymorphism, encapsulation, etc.
+
+Q2. Where does an inheritance search look for an attribute?
+Ans. When an object is qualified, it inherits, which entails examining an attribute definition tree (one or more namespaces). Python scans the namespace tree at and above object for the first attr it can find whenever you use an expression of the form object. attr, where the object is an instance or class object. Because lower definitions in the tree take precedence over higher ones, inheritance serves as the foundation for specialization.
+
+Q3. How do you distinguish between a class object and an instance object?
+Ans. class objects are used to create instance objects and an instance object is an instance of the class object. For example, if we have multiple Car brands like Audi , BMW , Mercedes , then they are our instance object and the Car Brand is our class object
+
+Q4. What makes the first argument in a class’s method function special?
+Ans. the self argument is special because it always refers to the current instance of the class
+
+Q5. What is the purpose of the __init__ method?
+Ans. __init__ works similar to how constructors work in c++ or java, it is used to initialize the newly created object before its use.
+
+Q6. What is the process for creating a class instance?
+Ans. for creating a class instance in python we call the class name and pass in whatever arguments its __init__ method accpets. Example obj = Student(“raj”). Here Student is a class and raj is the argument which is accepted by the init
+
+Q7. What is the process for creating a class?
+Ans. to create a class we first write the keyword class followed by class name and Collen. then we can write all the methods in the next line after giving some indentation,
+Example 
+class Student:
+		#statement1…
+#statement2	
+
+Q8. How would you define the superclasses of a class?
+Ans. The parent or superclass is the class from which a class inherits.
