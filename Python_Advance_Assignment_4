@@ -1,0 +1,16 @@
+Q1. Which two operator overloading methods can you use in your classes to support iteration?
+Ans. __iter__  and  __next__
+
+Q2. In what contexts do the two operator overloading methods manage printing?
+Ans. they print when we want to do operations like += , -= ,*= ,/=. Like assignment operation
+
+Q3. In a class, how do you intercept slice operations?
+Ans. that can be done using __setslice__  and __delslice__
+
+Q4. In a class, how do you capture in-place addition?
+Ans. Inplace operators behave similarly to normal operators, with the exception that they behave differently when dealing with mutable and immutable targets. Inplace operator’s “iadd()” method, implements “a+=b” if it exists (i.e in case of immutable targets, it doesn’t exist) and changes the value of the passed argument. If this is not the case, "a+b" is used.
+
+
+Q5. When is it appropriate to use operator overloading?
+Ans. Operator overloading is used to offer a particular meaning for an operator for a user-defined data type. You may also utilise operator overloading to execute many operations with a single operator.
+
