@@ -1,0 +1,9 @@
+Q1. What is the difference between __getattr__ and __getattribute__?
+Ans. The __getattr__ function is solely used to get undefined attributes and Whether the attribute is declared or not, the __getattribute__ function is called for every attribute fetch.
+
+Q2. What is the difference between properties and descriptors?
+Ans. Properties define get, set, and delete functions for a given attribute; descriptors, like properties, provide a class with methods for these activities, but with the added ability to enable additional arbitrary actions.
+
+Q3. What are the key differences in functionality between __getattr__ and __getattribute__, as well as properties and descriptors?
+Ans. The __getattr__ and __getattribute__ methods are more general: they can catch an infinite number of attributes. In contrast, each property or descriptor only provides access interception for a particular attribute—we can't intercept every attribute fetch with a single property or descriptor. Properties and descriptors, on the other hand, are designed to manage both attribute fetch and assignment.
+
