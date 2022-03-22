@@ -1,0 +1,20 @@
+Q1. Describe three applications for exception processing.
+Ans. 
+ Create Custom exception
+Show runtime error
+Converting errors in a user understandable language
+
+Q2. What happens if you don’t do something extra to treat an exception?
+Ans, If you do not manage an exception, the program will halt abruptly and the code after the line that produced the exception will not be performed.
+
+Q3. What are your options for recovering from an exception in your script?
+Ans. Exceptions are circumstances that occur during program execution and may result in the program's termination. However, they may be recovered by using the terms try, catch, and throw.
+
+Q4. Describe two methods for triggering exceptions in your script.
+Ans. Try and Raise can be used as a try method catches exceptions which are raised by the program and raise is used when we want to manually raise an exception
+
+Q5. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.
+Ans. if the program encounters an error then the catch method will be executed followed by finally. Finally action enables you to execute actions after try and catch, regardless of whether an exception occurs or not
+
+
