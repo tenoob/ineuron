@@ -1,0 +1,17 @@
+Q1. What are the two latest user-defined exception constraints in Python 3.X?
+Ans. Most exceptions are defined with names that end in “Error”, similar to the naming of the standard exceptions. Many standard modules define their own exceptions to report errors that may occur in functions they define. Exception classes can be defined which do anything any other class can do, but are usually kept simple, often only offering a number of attributes that allow information about the error to be extracted by handlers for the exception.
+
+
+Q2. How are class-based exceptions that have been raised matched to handlers?
+Ans. Superclass relationships match class exceptions: the raised exception matches an except clause if that except clause mentions the class of the exception object or any superclass of it.
+
+Q3. Describe two methods for attaching context information to exception artefacts.
+Ans. For automatically chained exceptions, use the __context__ attribute; for expressly chained exceptions, use the __cause__ attribute.
+
+Q4. Describe two methods for specifying the text of an exception object’s error message.
+Ans using raise , or by using Exception method
+
+Q5. Why do you no longer use string-based exceptions?
+Ans. The first is a holding string, and the second is a holding list. Because the string cannot be concatenated to the list, Python gives a type error. Python expects a list and hence returns a type error. To avoid this, we can check the variable's type before performing the operation.
+
+
