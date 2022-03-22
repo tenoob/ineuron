@@ -1,0 +1,15 @@
+Q1. What is the purpose of the try statement?
+Ans. The try statement helps in  designing a block of code that will be checked for errors while it runs
+
+Q2. What are the two most popular try statement variations?
+Ans. In Python, errors are classified into two types: syntax errors and exceptions. Errors are issues in a program that cause the program to cease running.
+
+Q3. What is the purpose of the raise statement?
+Ans. To raise an exception, use the raise keyword. You may specify the type of problem to raise as well as the wording to display to the user.
+
+Q4. What does the assert statement do, and what other statement is it like?
+Ans. The assert statement accepts an expression as well as an optional message. The assert statement is used to validate the types, values of arguments, and function output. The assert statement is used as a debugging tool since it stops the application when an error occurs.
+
+Q5. What is the purpose of the with/as an argument, and what other statement is it like?
+Ans. The with statement prevents faults and leaks by guaranteeing that a resource is appropriately released when the code uses it. It is most likely to be discovered while working with file streams.
+
