@@ -1,0 +1,21 @@
+1. What are the new features added in Python 3.8 version?
+Ans. Some of the new feature are:
+Positional only arguments
+Vectorcall
+Easy debugging
+The walrus operator (:=)
+
+
+
+2. What is monkey patching in Python?
+Ans. monkey patch refers to dynamic (or run-time) modifications of a class or module. 
+
+3. What is the difference between a shallow copy and deep copy?
+Ans. A shallow copy constructs a new compound object and then (to the extent possible) inserts references into it to the objects found in the original. A deep copy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original.
+
+4. What is the maximum possible length of an identifier?
+Ans. In Python, the highest possible length of an identifier is 79 characters. 
+
+5. What is generator comprehension?
+Ans. A generator comprehension is a single-line specification for defining a generator in Python
+
