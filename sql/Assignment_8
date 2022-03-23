@@ -1,0 +1,6 @@
+Q-15. Write an SQL query to fetch intersecting records of two tables.
+Ans.  SELECT t1.ids , t1.names from TABLE1 t1 INNER JOIN TABLE2 t2 ON t1.ids=t2.t2.ids;
+
+Q-16. Write an SQL query to show records from one table that another table does not
+Have.
+Ans. SELECT * FROM TABLE1 WHERE NOT EXISTS( SELECT * FROM TABLE2 WHERE TABLE1.ids = TABLE2.ids)
