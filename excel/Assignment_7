@@ -1,0 +1,3 @@
+
+write a formula which returns "Palindrome" or "Not Palindrome" for a given word in (palindrome.xslx)
+Ans. =IF(SUMPRODUCT(--(MID(SUBSTITUTE(B4," ",""),ROW(INDIRECT("1:"&LEN(SUBSTITUTE(B4," ","")))),1)=MID(SUBSTITUTE(B4," ",""),LEN(SUBSTITUTE(B4," ",""))+1-ROW(INDIRECT("1:"&LEN(SUBSTITUTE(B4," ","")))),1)))=LEN(SUBSTITUTE(B4," ","")),"Palindrome","Not Palindrome")
