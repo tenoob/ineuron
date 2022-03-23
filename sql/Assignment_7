@@ -1,0 +1,9 @@
+Q-13. Write an SQL query to show only odd rows from a table.
+Ans. select * from (select empno, ename, sal, rownum as rn from emp order by empno) where  mod (rn, 2) <> 0;
+
+
+Q-14. Write an SQL query to clone a new table from another table.
+Ans. INSERT INTO NEW_TABLE ( ids, title)
+   SELECT ids, title FROM ANOTHER_TABLE;
+
+
