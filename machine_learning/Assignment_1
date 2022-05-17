@@ -1,0 +1,101 @@
+1. What does one mean by the term "machine learning"?
+Ans.	Machine Learning is a subset of AI that uses data and statistical imputation to imitate the way that humans learn, gradually improving its accuracy.
+
+2.Can you think of 4 distinct types of issues where it shines?
+Ans.	
+            Voice Assistant
+            Self Driving cars
+            Recommendation system
+            Healthcare
+
+3. What is a labeled training set, and how does it work?
+Ans,	the Training set is the data set that is used to train a model by fitting the parameter of the classifier.
+
+
+
+4.What are the two most important tasks that are supervised?
+Ans. Regression and classification
+
+
+
+5.Can you think of four examples of unsupervised tasks?
+Ans.	
+              clustering 
+              dimensionality reduction
+              visualization
+              association rule learning
+
+
+
+6.State the machine learning model that would be best to make a robot walk through various unfamiliar terrains?
+Ans, Reinforced learning
+
+
+
+7.Which algorithm will you use to divide your customers into different groups?
+Ans. clustering algorithms like k-means clustering
+
+
+8.Will you consider the problem of spam detection to be a supervised or unsupervised learning problem?
+Ans. its supervised learning problem
+
+
+
+9.What is the concept of an online learning system?
+Ans,	a learning system that is based on teaching with the help of electronic resources.
+
+
+
+10.What is out-of-core learning, and how does it differ from core learning?
+Ans.	refers to a set of algorithms working with data that cannot fit into the memory of a single computer, but can be stored in a local hard disk 
+
+
+
+11.What kind of learning algorithm makes predictions using a similarity measure?
+Ans.	instance-based learning 
+
+
+
+12.What's the difference between a model parameter and a hyperparameter in a learning algorithm?
+Ans.	model hyperparameter are set manually and are used to help estimate model parameters. model parameter are estimated based on the training data 
+
+
+
+13.What are the criteria that model-based learning algorithms look for? What is the most popular method they use to achieve success? What method do they use to make predictions?
+Ans,	model-based algorithms search for optimal values for the model's parameters
+
+
+14.Can you name four of the most important Machine Learning challenges?
+Ans.	
+          underfitting 
+          overfitting
+          poor data quality
+          lack of training data
+
+
+
+15.What happens if the model performs well on the training data but fails to generalize the results to new situations? Can you think of three different options?
+Ans.	
+            the model could be overfitting
+            the situation could be an outlier
+            model was unable to make correct decision
+
+
+
+16.What exactly is a test set, and why would you need one?
+Ans, 	the test set is a data set on which a model is tested to see its performance on new unseen data.
+
+
+
+17.What is a validation set's purpose?
+Ans,	its purpose is to train models to find and optimize the best model
+
+
+
+18.What precisely is the train-dev kit, when will you need it, how do you put it to use?
+Ans.	its purpose is to find the best model based on performance metrics like accuracy and help decide which model to proceed further with.
+
+
+
+19.What could go wrong if you use the test set to tune hyperparameters?
+Ans.	the model will be overfitting.
