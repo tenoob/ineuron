@@ -1,0 +1,85 @@
+1. Explain the term machine learning, and how does it work? Explain two machine learning
+applications in the business world. What are some of the ethical concerns that machine learning
+applications could raise?
+Ans. Machine learning is a subdomain of  Ai that allows machines to make decisions like humans. They make decisions based on the data given to them. They can be used for fraud detection and algorithm trading. Some of the ethical issues can be lack of trust, the disappearance of jobs, 
+
+2. Describe the process of human learning:
+i. Under the supervision of experts
+ii. With the assistance of experts in an indirect manner
+iii. Self-education
+
+Ans.	i.	humans learning under the supervision of experts is like in school where we learn from teachers and they teach us. 
+Ii.	learning under an expert in an indirect manner is like learning swimming as you will be doing the summing on your own, the expert will guide you when it's needed
+Iii.	self-education is when you learn something on your own without the help of other like learning a new sport or language
+
+3. Provide a few examples of various types of machine learning.
+Ans, classification, regression, clustering, and reinforcement learning are some types of Machine learning.
+
+4. Examine the various forms of machine learning.
+Ans, supervised learning, unsupervised learning, and reinforcement learning
+
+
+5. Can you explain what a well-posed learning problem is? Explain the main characteristics that must be present to identify a learning problem properly.
+Ans.A computer program is said to learn from experience E in context to some task T and some performance measure P, if its performance on T, as was measured by P, upgrades with experience E. The main characteristics are task, experienc,e and performance measure
+
+
+6. Is machine learning capable of solving all problems? Give a detailed explanation of your answer
+Ans. yes, machine learning is capable of solving every problem provided the data for that problem. If correct data is provided an algorithm then it can create a model which can solve the problem which we want to solve.
+
+7. What are the various methods and technologies for solving machine learning problems? Any two of them should be defined in detail.
+Ans. supervised learning, unsupervised learning, and reinforcement learning are some of the machine learning techniques. In supervised learning, we train the model on input and output data so it can predict future outputs. In unsupervised machine learning the model tries to find patterns in the data to cluster similar data together.
+
+8. Can you explain the various forms of supervised learning? Explain each one with an example
+Application.
+Ans. Supervised learning is of two types classification and regression. In classification, we try to differentiate between 2 or more classes like differentiating between apples and oranges. In regression, we try to find a value out of a range like salary of employees in a company
+
+
+9. What is the difference between supervised and unsupervised learning? With a sample application in each region, explain the differences.
+Ans. In supervised learning, we train the model on input and output data so it can predict future outputs example if we are given data on employees and their salaries then using supervised learning we can create a model which can predict the salaries of future employees. In unsupervised machine learning the model tries to find patterns in the data to cluster similar data together. Using unsupervised learning we can create a model which can cluster employees who have similar salaries.
+
+10. Describe the machine learning process in depth.
+
+a. Make brief notes on any two of the following:
+MATLAB is one of the most widely used programming languages.
+ii. Deep learning applications in healthcare
+iii. Study of the market basket
+iv. Linear regression (simple)
+
+Ans. ii.	In healthcare deep learning can be used for various roles 
+ in detecting diseases like cancer, pneumonia, etc. in patent health monitoring and other hospital administrative duties.
+
+iv.	Linear regression is one of the basic regression algorithms which is used to predict values like the salary of employees, house prices, etc. it plots the relationship between the input and output data and passes a line going as close to them to avoid incorrect predictions.
+
+11. Make a comparison between:-
+
+1. Generalization and abstraction
+2. Learning that is guided and unsupervised
+3. Regression and classification
+
+Ans.	i.generalization is something which can be used in any case while abstraction is case-specific and cannot be used always 
+
+Ii.	guided learning is like learning from teachers or supervised learning as in this whenever we make a mistake we know how can we get to the correct answer wherelese in unsupervised learning we don't have the answers with us we try to cluster all the similar data together in clusters 
+Iii.	
+
+
+classification is when we want to classify/distinguish between two or more classes like when we want to classify apples from oranges. Regression is when we want to predict a value from a continuous number line like the salary of an employee.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
