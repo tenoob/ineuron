@@ -1,0 +1,64 @@
+1. What is the concept of human learning? Please give two examples.
+Ans. Human learning is when a person learns a new skill or gains some new experience.like when a child learns to write, or when a person learns to drive a car
+
+
+2. What different forms of human learning are there? Are there any machine learning equivalents?
+Ans. humans learn in various ways: through observing others and copying them, through books and scripts, and by learning new things based on their previous experiences..
+Learning from books is similar to supervised learning as it has all the questions(features) and their answers. Learning from past experience or copying three is similar to reinforcement learning.
+
+3. What is machine learning, and how does it work? What are the key responsibilities of machine learning?
+Ans. machine learning is a subdomain of AI in which we try to make the computer make human-like decisions by learning from the data. the key responsibility is to understand the data and make correct recision based on them
+
+4. Define the terms"penalty" and"reward" in the context of reinforcement learning.
+Ans. In reinforcement learning when the model makes a mistake then a penalty is given to it it may be a reduction of the score and when the model makes a correct decision then a reward is given that can be in terms of an additional score increment.
+
+5. Explain the term "learning as a search"?
+Ans the task of searching through a large space of hypotheses implicitly defined by the hypothesis representation. This search aims to find the hypothesis that best fits the training examples.
+
+6. What are the various goals of machine learning? What is the relationship between these and human learning?
+Ans. the goal of machine learning is to find out patterns in the data and use those patterns to answer a question. It is similar to human learning as when we want an answer to a new question we try to find patterns in the question that may relate to any previous experience or topic we know.
+
+
+7. Illustrate the various elements of machine learning using a real-life illustration.
+Ans. the various elements are:
+I.	model building: coming up with a logic based on the previous encounter like buying new clothes.
+Ii.	optimization: adding new learning or improving previous like learning that there is a sale on jeans.
+Iii. evaluation: checking if the model is good like checking if we got nice jeans for the amount we have paid or not.
+
+
+
+
+8. Provide an example of the abstraction method.
+Ans, Abstraction is used to hide the internal functionality of the function from the users.
+from abc import ABC
+
+class A(ABC):
+	def abs_method(self):
+		pass
+
+
+
+9. What is the concept of generalization? What function does it play in the machine learning
+process?
+Ans. the meaning of generalization is how well our trained model does with unseen data. It tests the model with new unseen data and givens a score that tells how accurate our model is with new data.
+
+10. What is classification, exactly? What are the main distinctions between classification and regression?
+Ans, classification is when we want to classify/distinguish between two or more classes like when we want to classify apples from oranges. Regression is when we want to predict a value from a continuous number line like the salary of an employee.
+
+11. What is regression, and how does it work? Give an example of a real-world problem that was solved using regression.
+Ans, Regression is when we want to predict a value from a continuous number line like the salary of an employee.
+
+
+12. Describe the clustering mechanism in detail.
+Ans. Clustering is the task of dividing the population or data points into n number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them to clusters
+
+13. Make brief observations on two of the following topics:
+
+i. Machine learning algorithms are used
+ii. Studying under supervision
+iii. Studying without supervision
+iv. Reinforcement learning is a form of learning based on positive reinforcement.
+
+Ans, 	ii. Studying under supervision is like school as in school teachers give us questions to solve and after we are done with the question they tell us the answers to check whether our answers are correct or not. Similarly, under supervision, the model has all the questions and its answer. and the model comes up with the best values for each parameter so that it can give all the answers correctly
+
+Iii.	Studying without supervision is like organizing self at a store as all the similar products are grouped together at one palace. Unlike supervised learning here we don't have answers to the question instead we try and group similar questions together
