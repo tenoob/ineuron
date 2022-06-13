@@ -1,0 +1,43 @@
+1. What are the key tasks involved in getting ready to work with machine learning modeling?
+Ans. task involved in working with machine learning models are data gathering, data processing, data splitting and model selection
+
+2. What are the different forms of data used in machine learning? Give a specific example for each of them.
+Ans. data like numerical, categorical and text data in forms of tables like salary of employees or their department or even text messages and time-series data as stocks data from the past year can also be used for machine learning
+
+
+3. Distinguish:
+
+1. Numeric vs. categorical attributes
+2. Feature selection vs. dimensionality reduction
+
+Ans. i.	The numerical attribute is numbered they can be continuous like the price of a car or the salary of an employee while categorical attributes are discrete like rating a movie so here the movie can be good or poor.
+
+Ii.	Feature selection is the process in which we select features that are highly positively or negatively related to the target variable out of all the given independent features. Where else in dimensionality reduction we try to decrease or transform the number of features from say 100 to 10 
+
+4. Make quick notes on any two of the following:
+
+1. The histogram
+2. Use a scatter plot
+3. PCA 
+
+Ans. i. 		 the histogram is used to show the distribution of a discrete or continuous feature in graphical form
+Ii.	scatter plot is used to plot data points in x-y axes to show the relation betten two features and how much one feature is affected by another.
+Iii.	PCA is a technique used for the identification of a smaller number of uncorrelated variables.
+
+5. Why is it necessary to investigate data? Is there a discrepancy in how qualitative and quantitative data are explored?
+Ans, it is necessary to investigate data as by that we get to what kind of data is provided and what all processing needs to be done. Quantitative data is discrete like rating a movie so here the movie can be good or poor. And quantitative data can be continuous like the price of a car or the salary of an employee
+6. What are the various histogram shapes? What exactly are ‘bins’?
+Ans. A histogram can be bell-shaped, bimodal, uniform, left skew, right skew, or random. Bins are the towers or bars in histogram. They are equally spaced intervals.
+
+7. How do we deal with data outliers?
+Ans. we can deal with outliers by removing them , transforming them or if needed we can keep them as it is.
+
+8. What are the various central inclination measures? Why does mean vary too much from the median in certain data sets?
+Ans. Mean, Median and model are some of the various central inclination measures. When the dataset is left or right skew over then the mean vary very much from the median
+
+
+9. Describe how a scatter plot can be used to investigate bivariate relationships. Is it possible to find outliers using a scatter plot?
+Ans, a scatter plot shows the important characteristics of the data and can be used to decide what model may describe the relationship between the variable. Outliers can be found using a scatter plot as they will be far away from all the other points in the graph.
+
+10. Describe how cross-tabs can be used to figure out how two variables are related.
+Ans, cross-tab groups variables to understand the correlation between different variables. It also shows how correlations change from one variable grouping to another
