@@ -1,0 +1,78 @@
+1. What are the key tasks that machine learning entails? What does data pre-processing imply?
+Ans. data collection, data pre-processing, model building, and model evaluation are all entailed in machine learning. Data pre-processing is a process of transforming raw data into an understandable format. It includes removing outliers, filling missing values, transforming the dataset
+
+2. Describe quantitative and qualitative data in depth. Make a distinction between the two.
+Ans.  Quantitative data is discrete like rating a movie so here the movie can be good or poor.  And quantitative data can be continuous like the price of a car or the salary of an employee
+
+
+3. Create a basic data collection that includes some sample records. Have at least one attribute from
+each of the machine learning data types.
+Ans. 
+
+
+
+4. What are the various causes of machine learning data issues? What are the ramifications?
+Ans.there are many issues like
+Underfitting and overfitting
+Poor quality data
+Inadequate training data
+
+5. Demonstrate various approaches to categorical data exploration with appropriate examples.
+Ans. Categorical data can be explored using the mode, bar charts, pie charts as using the charts we can see the distribution of each class
+
+6. How would the learning activity be affected if certain variables have missing values? Having said
+that, what can be done about it?
+Ans. the learning activity can be significantly affected as missing values can cause bias in the estimation of the parameter and it can make rejecting the null hypothesis when it is false. Missing values can be replaced with some other value like median or the data points having missing values can be removed from the dataset.
+
+7. Describe the various methods for dealing with missing data values in depth.
+Ans. Missing values can be replaced with some other value like median or the data points having missing values can be removed from the dataset.
+
+8. What are the various data pre-processing techniques? Explain dimensionality reduction and
+function selection in a few words.
+Ans,  various pre-processign techniques are:
+Data cleaning
+Data integration
+Data transformation
+Data reduction
+Feature selection is simply selecting and excluding given features without changing them. Dimensionality reduction transforms features into a lower dimension.
+
+
+9.
+
+i. What is the IQR? What criteria are used to assess it?
+ii. Describe the various components of a box plot in detail? When will the lower whisker
+surpass the upper whisker in length? How can box plots be used to identify outliers?
+
+Ans. i.	The interquartile range (IQR) measures the spread of the middle half of your data. It is the range for the middle 50% of the sample. IQR is used to assess the variability where most of your values lie. Larger values indicate that the central portion of your data spread out further.
+
+ii.	the components of the box plot are:
+Outliers
+Minimum
+Maximum
+Median
+IQR
+25th percentile(Q!)
+75th percentile(Q3)
+
+When the lower whisker surpasses the upper whisker in length that means more date lies between the minimum and Q1.outlier is defined as a data point that is located outside the whiskers of the box plot
+
+10. Make brief notes on any two of the following:
+
+1. Data collected at regular intervals
+2. The gap between the quartiles
+3. Use a cross-tab
+
+Ans. 1. 	Data collected at regular intervals like stock prices, or weather. They are also known as time-series data 
+2.	The gap between the 25th quantile and 75th quantile is known as IQR(interquartile range) it measures the spread of the middle half of your data. It is the range for the middle 50% of the sample
+
+
+11. Make a comparison between:
+
+1. Data with nominal and ordinal values
+2. Histogram and box plot
+3. The average and median
+
+Ans.	1.	Nominal data is a group of non-parametric variables, while Ordinal data is a group of non-parametric ordered variables
+2.	Histograms are a special kind of bar graph that shows a bar for a range of data values instead of a single value. A box plot is a data display that draws a box over a number line to show the interquartile range of the data.
+3.	average is the arithmetic mean of a set of numbers. The median is a numeric value that separates the higher half of a set from the lower half. it's best to use the mean when the distribution of the data values is symmetrical and there are no clear outliers. It's best to use the median when the the distribution of data values is skewed or when there are clear outliers
+
