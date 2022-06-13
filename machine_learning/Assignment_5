@@ -8,7 +8,9 @@ Ans.  Quantitative data is discrete like rating a movie so here the movie can be
 3. Create a basic data collection that includes some sample records. Have at least one attribute from
 each of the machine learning data types.
 Ans. 
-
+age  department    timeout   message
+29    science       10:23     Done with experiment
+30     maths         8:43     Exam results published
 
 
 4. What are the various causes of machine learning data issues? What are the ramifications?
@@ -20,7 +22,7 @@ Inadequate training data
 5. Demonstrate various approaches to categorical data exploration with appropriate examples.
 Ans. Categorical data can be explored using the mode, bar charts, pie charts as using the charts we can see the distribution of each class
 
-6. How would the learning activity be affected if certain variables have missing values? Having said
+.6. How would the learning activity be affected if certain variables have missing values? Having said
 that, what can be done about it?
 Ans. the learning activity can be significantly affected as missing values can cause bias in the estimation of the parameter and it can make rejecting the null hypothesis when it is false. Missing values can be replaced with some other value like median or the data points having missing values can be removed from the dataset.
 
@@ -30,10 +32,10 @@ Ans. Missing values can be replaced with some other value like median or the dat
 8. What are the various data pre-processing techniques? Explain dimensionality reduction and
 function selection in a few words.
 Ans,  various pre-processign techniques are:
-Data cleaning
-Data integration
-Data transformation
-Data reduction
+    Data cleaning
+    Data integration
+    Data transformation
+    Data reduction
 Feature selection is simply selecting and excluding given features without changing them. Dimensionality reduction transforms features into a lower dimension.
 
 
