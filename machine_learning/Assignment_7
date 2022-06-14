@@ -1,0 +1,80 @@
+1. What is the definition of a target function? In the sense of a real-life example, express the targetfunction. How is a target function’s fitness assessed?
+Ans. the target function is a method for solving a problem that an ai algorithm parses its training data to find. For algorithms like linear regression, it will try to find the equation for the line that passes through all points
+
+2. What are predictive models, and how do they work? What are descriptive types, and how do youuse them? Examples of both types of models should be provided. Distinguish between these twoforms of models.
+Ans. A descriptive model will exploit the past data that are stored in databases and provide you with an accurate report. In a Predictive model, it identifies patterns found in past and transactional data to find risks and future outcomes. An example of the descriptive model can be the sales report for last year and for the predictive model can be the amount of rain expected this year
+
+3. Describe the method of assessing a classification model’s efficiency in detail. Describe the variousmeasurement parameters.
+Ans. there are various measures for assessing a classification model like:
+Classification accuracy
+Precision and recall
+F1 score
+ROC and AUC curve
+Confusion matrix
+
+
+4.
+i. In the sense of machine learning models, what is underfitting? What is the most commonreason for underfitting?
+ii. What does it mean to overfit? When is it going to happen?
+iii. In the sense of model fitting, explain the bias-variance trade-off.
+
+Ans. i	underfitting is when our model is unable to capture the trends of the training data. means it performs poorly in training and testing. This happens mainly when we have fewer data points to make a model or use non-linear data to form a linear model
+Ii.	overfitting is when our model performs very well in training but not in testing.  This happens because the model has memorized all the training points but is unable to generalize them on unseen data.
+Iii. 	bias–variance tradeoff is the property of a model that the variance of the parameter estimated across samples can be reduced by increasing the bias in the estimated parameters
+
+5. Is it possible to boost the efficiency of a learning model? If so, please clarify how.
+Ans, the accuracy of a model can be improved by:
+Adding more data for training
+Adding new features or combining older features together
+Using cross-validation
+Hyperparameter tuning 
+
+
+6. How would you rate an unsupervised learning model&#39;s success? What are the most commonsuccess indicators for an unsupervised learning model?
+Ans.	various techniques can be used like:
+Rand index
+Jaccard coefficient
+Entropy
+Purity
+Cohesion 
+Separation
+Silhouette coefficient
+
+7. Is it possible to use a classification model for numerical data or a regression model for categoricaldata with a classification model? Explain your answer.
+Ans. when we want to predict a continuous dependent variable from a number of independent variables, we used linear/polynomial regression. But when it comes to classification, we can't use that anymore. Fundamentally, classification is about predicting a label and regression is about predicting a quantity
+
+8. Describe the predictive modeling method for numerical values. What distinguishes it from categorical predictive modeling?
+Ans.	Regression and neural networks are the most common predictive modeling methods for numerical values as they can predict any value from the number line. Unline categorical predictive models are not limited to the number of labels or classes.
+
+9. The following data were collected when using a classification model to predict the malignancy of agroup of patients&#39; tumors:
+i. Accurate estimates – 15 cancerous, 75 benign
+ii. Wrong predictions – 3 cancerous, 7 benign
+Determine the model’s error rate, Kappa value, sensitivity, precision, and F-measure.
+
+Ans. 
+Error rate = 3+7/(15+75+3+7) = 0.1
+Sensitivity = 15/(15+7) = 0.68
+Precision = 15/(15+3) = 0.83
+F score = 2((0.68*0.83)/(0.68+0.83))= 0.74
+Kappa value = (0.74-0.5)/(1-0.5) = 0.48
+
+
+10. Make quick notes on:
+1. The process of holding out
+2. Cross-validation by tenfold
+3. Adjusting the parameters
+Ans. i		it is the process of splitting the data into different splits and using one split for training the model and other splits for validating and testing the models. 
+Ii.	10-fold cross validation would perform the fitting procedure a total of ten times, with each fit being performed on a training set consisting of 90% of the total training set selected at random, with the remaining 10% used as a hold-out set for validation
+Iii.	the basic idea of parameter adjustment is to Start with some estimate of the correct weight settings. Modify the weight in the program on the basis of accumulated experiences
+
+
+11. Define the following terms:
+1. Purity vs. Silhouette width
+2. Boosting vs. Bagging
+3. The eager learner vs. the lazy learner
+
+Ans. i	Silhouette Score and Silhouette Plot are used to measure the separation distance between clusters. It displays a measure of how close each point in a cluster is to points in the neighbouring clusters. he purity becomes the number of correctly matched class and cluster labels divided by the number of total data points. Each cluster is assigned with the most frequent class label.
+
+Ii.	Bagging is a way to decrease the variance in the prediction by generating additional data for training from dataset using combinations with repetitions to produce multi-sets of the original data. Boosting is an iterative technique which adjusts the weight of an observation based on the last classification.
+
+iii. 	 lazy learner delays abstracting from the data until it is asked to make a prediction while an eager learner abstracts away from the data during training and uses this abstraction to make predictions rather than directly compare queries with instances in the dataset.
