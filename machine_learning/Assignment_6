@@ -1,0 +1,57 @@
+1. In the sense of machine learning, what is a model? What is the best way to train a model?
+Ans. a model is a machine learning algorithm like linear regression, random forest, or any other which has been trained on a dataset to predict some value. The best way to train a model is:
+Have existing data to train a model
+Process the data to be in a structured a standradized form
+Select the algorithm on which model is to be trained.
+Train the model
+Evaluate the mode. If not satisfied by the model try another algorithm
+
+2. In the sense of machine learning, explain the &quot;No Free Lunch&quot; theorem.
+Ans. The no free lunch theorem for supervised machine learning is a theorem that essentially implies that no single machine learning algorithm is universally the best-performing algorithm for all problems. 
+
+3. Describe the K-fold cross-validation mechanism in detail.
+Ans. Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k which refers to the number of groups that a given data sample is to be split into. It is a popular method because it is simple to understand and because it generally results in a less biased or less optimistic estimate of the model skill than other methods, such as a simple train/test split.
+
+4. Describe the bootstrap sampling method. What is the aim of it?
+Ans. Bootstrap sampling is used in a machine learning ensemble algorithm called bootstrap aggregating (also called bagging). It helps in avoiding overfitting and improves the stability of machine learning algorithms.
+
+5. What is the significance of calculating the Kappa value for a classification model? Demonstrate
+how to measure the Kappa value of a classification model using a sample collection of results.
+Ans. Cohen’s kappa statistic is a very good measure that can handle very well both multi-class and imbalanced class problems.
+![Cohen's kappa](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAhFBMVEX///8AAADf39/i4uIFBQX09PS9vb14eHjCwsJ/f3/Nzc0ZGRkcHBz4+Pjw8PD29vZtbW3o6OjY2NgxMTGoqKiXl5dzc3Ozs7OLi4tYWFgSEhKhoaE6OjpdXV0lJSXV1dVmZmaOjo5MTEyEhIQ2NjZERERbW1ubm5tQUFCurq6kpKQqKio9WmhwAAAH/UlEQVR4nO2diZaiOhCGLVAWFQRXcAO1bbV9//e7qbCPYCuk1XDrO2eOxtaMFMmfSqUSOx2CIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAhCMLYx9TT22JvO5jtNePW9/mW3Yo/WYqZ7F+HVvxDVHwJidHoH/gQmqsDq7fDKK111rFlUPQQCq38xVhB47Aq6IwVAv+h4NWuR9Y/HK6xTsb/AmR74jbFE1v9qeuwCHAX0EXuu4NUI7ipLZn97uHHZU5s9h4PY6l+Lyy7A206jgsMKvtj6WY362Yue71hhKbb613JhF3CdxYUTKxyFVt9HHZzHBQ1brtDqXwwK1T4p/KDleiKrR/NvE50y0FiuyOpfi4XjVT8prR5oWapSSYl4H/MqKHvLUvMNq4MD/Pn+B6wBVDK+fTt7dZjaUHZjYVv6SUshyvH9D1jDZ4yFHc9MSzvhkvhacPzL/NDIQeWoxsUoc1CtaluVeJxevpN31qw0FX0Fr8Mq9Dvsk0Ou7+4GnJ0PTokK9aq5fTNrhoPsk1259T1gX3+WlmZJLwyWvIEtYGs3qt5GjzctLQr6KB+zgtIkI7s9hB1/wWkoMajo2dz8WD4GSMOZTUbSroZ3nvvac4CoRal59a8BqwjSzon+6aZJbW/GKnQT9EjxkZkojF+6wnDUoH7IT8zXectJiJHvJnoiv7NMx7x0dKzDOK+Iq9LhUiJwZFfi51rqNviZhab5lvc0l8wT4Z1QYreBMcmmgkHqEdmDbIA3GgW4/MxVcJcAi+JfR2NDJj/CzjxqZpVrPFKht5V4DArzk+pfUTed3QQDGBT7s/F9NY/xoCsFOPzx5uSakH3vIGesXpPRHnseb042m+foBW23QzhxTZNH8Zmkd/1B6OxhcsraD2tky8RYVhNVxvCMP/ien2HrKYW/KFvARYxAJoeeXcyk4/aNoDAJ1JI5T6ehsdAJ7fQCI/g3dsMEjA8bB9jWrfvloDiFty+Lall2N/bb/sU6whJbVL+RX/JipnAzQiF5zRo10Cx04koFfBUtWxil//unsim3RH40dCFqBHU4QHnLYTeg63YUHTZKyV8/FSjvJmwaneou6ylfdatfV4RF2Ri8nq0nplRz6gAq3PNNFrC7lKraQ6hQ4dCGzI/QXMkWW3flklWYG+7q68qiECrLcc3HZmWhWwj55shFHdbZwPgs56p70UAG34WC8g7z0nvsJJ61W3u5XTWxer9sdWydDitBacv7PObL64SxHXZLdJZ5SNFlzHPrWE8x626x+uuwe5vExMwYLVGfGsXKPoZ+1EEXf6IuOH33tf50uZdM5KtQfQhP7F+z9YoKFJwHwVV84tzbULWL9mc6rBp92TS+nfRS5bBUuiOVjNz+ytzDJCpZKzYT8VsxhPwFqzVPWokG8vGaZxRInfL7x5wTR3sRp1+UrpFYulmJLlEkpCFhPHmfxQnF69LhvHcnueW3LKIWsY5yYj04oq/tjssli4yFKJFk7eB819+1HL2S+f9G5RZcsk6CM65d9aMQNVHA1LyOJjqvKYTuBwHz37/xI/QmAOE4cbSEsbknca9HkLEwEeUwEb5y67/bPEVCMVeV7KZqkMtShludzP4OBM3hWBMY8KCjTMtGb8LtYqPC3VS/JHeOYFCJ3DuxHgdXdX+iic79WNldp9S8+9HWEKcuYmhxePeN5MF3LDbXOVrRmIgJTXfeqd1B6lTOh8FVXS44mCMNfxIQ/yh+HLN+Xg3u/+PhGd7LBLlunwvfpF17NArTVCm+MVuebKZa8D3UtfPBesvMuf1i1SzbLT6Y/QbxJo/nQcdhldTEj0jwJUrvfR7eDevGV2xFzZIFRqdwvzFLMzlagzG7eO2XZnH0ZcqdfDdzmTZRC4ta1kOmhuWa5fltryKQZ2pmm1CRDPgiptKo+yg6FeqNxnJlcbtHJgzfbSxpCBfRvJ2M9ShkrCcYkrEeh4z1BGSsJyBjPQEZ6wmEGctWxxfPwcNU3JPj+3ob74AgY1n6BOJFAy9ejasZ/vxkRLUs2x6juTTrC7y+5rRz/UCgZqGF7O2GB3xwIe/Yko06GQKNtQfYnON4C+6ZlegEhwcRZyw8e2bwHRfsBitcn4s4Y/XzS+j274ktEnLPWIFRhVayKdHMj4B4fnP7EszuGetcnaWzun33Ma9S7v9Os+6kod6eC6gWFkvxHLOtPOcZPYgwYy0Kr2K8WpqFiIcRJvAO5DOk9q2ccooy1midP74VU/G+WueTCjMWbjjKUlgw30OepdOHEWUsTMJLz4vAsVDmU4KrEGWskLnvvVxB6lOCqxBkLDxUKkwK2m0nbIcXAWKMlT8LHD2uQp5133H2+xZIGD8YX8B17LL4lb0tbuoeH0HrKW3ol3yTkICDtb/TIMN4ANt82G/Kj4OyJpIfIWD3tdhH3xhBs0kvDzKEVnQulJnf0z2LjKjKHrAx5ulhB7ruNXIhMW84DJeTAaxPhdQ4LZayUPTPRknMgfsKPdv+56AATN3GRw+urQtB1OYIMCxLtjR5w3K/wWmH7yACu2KUwIalamcI5dYrsVQdI4ne6fHQuuhyM8yK6Y0p+08N/AXMDS39uR6/jSutDVGqHNswW+FpXySwJrj8XJqgfUpet5wWZj7UwOrznV3L6fi2I+JJAjPLsrRBq7e2PU7ghw4S+iXLYxpuvtwWJ4tEFe7KCT3SK4IgCIIgCIIgCIIgCIIgCIIgCIIgCIKQn/8AIlZeFJvjNjIAAAAASUVORK5CYII=)
+where po is the observed agreement, and pe is the expected agreement. It basically tells you how much better your classifier is performing over the performance of a classifier that simply guesses at random according to the frequency of each class.
+
+6. Describe the model ensemble method. In machine learning, what part does it play?
+Ans. Ensemble methods is a machine learning technique that combines several base models in order to produce one optimal predictive model. Ensemble methods usually produces more accurate solutions than a single model would. This has been the case in a number of machine learning competitions, where the winning solutions used ensemble methods.
+
+7. What is a descriptive model&#39;s main purpose? Give examples of real-world problems that
+descriptive models were used to solve.
+Ans. Descriptive modeling is a mathematical process that describes real-world events and the relationships between factors responsible for them. The process is used by consumer-driven organizations to help them target their marketing and advertising efforts.
+8. Describe how to evaluate a linear regression model.
+Ans. a linear regression model can be evaluated using:
+R2 or adjusted r2
+Mean square error
+Mean absolute error
+
+9. Distinguish :
+
+1. Descriptive vs. predictive models
+2. Underfitting vs. overfitting the model
+3. Bootstrapping vs. cross-validation
+
+Ans.  1.	 descriptive model will exploit the past data that are stored in databases and provide you with the accurate report. In a Predictive model, it identifies patterns found in past and transactional data to find risks and future outcomes.
+2.	Overfitting: Good performance on the training data, poor generliazation to other data. Underfitting: Poor performance on the training data and poor generalization to other data
+3.	Cross validation splits the available dataset to create multiple datasets, and Bootstrapping method uses the original dataset to create multiple datasets after resampling with replacement. Bootstrapping it is not as strong as Cross validation when it is used for model validation
+
+
+10. Make quick notes on:
+
+1. LOOCV.
+2. F-measurement
+3. The width of the silhouette
+4. Receiver operating characteristic curve
+
+Ans. 1.	LOOCV(Leave One Out Cross-Validation) is a type of cross-validation approach in which each observation is considered as the validation set and the rest (N-1) observations are considered as the training set. In LOOCV, fitting of the model is done and predicting using one observation validation set.
+2.	 F-measure can be viewed as a compromise between recall and precision. It is high only when both recall and precision are high.
+3.	 silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). 
+4.	ROC curve (receiver operating characteristic curve) is a graph showing the performance of a classification model at all classification thresholds. This curve plots two parameters: True Positive Rate. False Positive Rate
