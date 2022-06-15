@@ -1,0 +1,66 @@
+1. What is feature engineering, and how does it work? Explain the various aspects of the feature engineering in depth.
+Ans. Feature engineering is a machine learning technique that leverages data to create new variables that aren't in the training set. It can produce new features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also enhancing model accuracy. Feature Creation, Transformations, Feature Extraction, and Feature Selection are done infeature engineering.
+
+2. What is feature selection, and how does it work? What is the aim of it? What are the various methods of function selection?
+Ans. Feature Selection is the method of reducing the input variable to your model by using only relevant data and getting rid of noise in data. It is the process of automatically choosing relevant features for the machine learning model based on the type of problem you are trying to solve. There are various methods like forward , backward selection , lasso , ridge , pearson correlation.
+
+3. Describe the function selection filter and wrapper approaches. State the pros and cons of each approach?
+Ans. Filter methods measure the relevance of features by their correlation with dependent variable while wrapper methods measure the usefulness of a subset of feature by actually training a model on it.
+
+4.
+i. Describe the overall feature selection process.
+ii. Explain the key underlying principle of feature extraction using an example. What are the most widely used function extraction algorithms?
+Ans. i.	In feature selection we try and find a set of features from the dataset which can accuracy  create a model. This can be done using one feature first then see the model accuracy with it then add a model compare accuracy  and go on like this. Or we can use  something like pearson correlation to plot heatmaps to see the correlation with the target feature.
+
+Ii.	Feature extraction refers to the process of transforming raw data into numerical features that can be processed while preserving the information in the original data set. It yields better results than applying machine learning directly to the raw data. PCA is the optimal procedure for feature selection
+
+
+
+5. Describe the feature engineering process in the sense of a text categorization issue.
+Ans. Text classification is the problem of assigning categories to text data according to its content. The most important part of text classification is feature engineering. the process of creating features for a machine learning model from raw text data
+
+6. What makes cosine similarity a good metric for text categorization? A document-term matrix has two rows with values of (2, 3, 2, 0, 2, 3, 3, 0, 1) and (2, 1, 0, 0, 3, 2, 1, 3, 1). Find the resemblance in cosine.
+Ans. Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.
+
+A- (2, 3, 2, 0, 2, 3, 3, 0, 1) 
+B -(2, 1, 0, 0, 3, 2, 1, 3, 1)
+
+a*b = 2*2 + 3*1 + 2*0 + 0*0 + 2*3 + 3*2 + 3*1 + 0*3 + 1*1 = 23
+||a|| = root(2^2 + 3^2 + 2^2 + 0^2 + 2^2 +  3^2 +  3^2 +  0^2 +  1^2 )= 6.32
+||b|| = root(2^2 + 1^2 + 0^2 + 0^2 + 3^2 + 2^2 + 1^2 + 3^2 + 1^2 ) = 5.38
+cos(a,b) = 23/(6.32+5.38) = 1.96
+
+7.
+
+i. What is the formula for calculating Hamming distance? Between 10001011 and 11001111, calculate the Hamming gap.
+
+ii. Compare the Jaccard index and similarity matching coefficient of two features with values (1, 1, 0, 0, 1, 0, 1, 1) and (1, 1, 0, 0, 0, 1, 1, 1), respectively (1, 0, 0, 1, 1, 0, 0, 1).
+
+Ans,	i.The Hamming distance between two vectors is simply the sum of corresponding elements that differ between the vectors. 10001011 ⊕  11001111 = 2
+
+Ii.	SMC counts both mutual presences (when an attribute is present in both sets) and mutual absence (when an attribute is absent in both sets) as matches and compares it to the total number of attributes in the universe, whereas the Jaccard index only counts mutual presence as matches 
+
+8. State what is meant by ‘high-dimensional data set‘? Could you offer a few real-life examples? What are the difficulties in using machine learning techniques on a data set with many dimensions? What can be done about it?
+Ans. High Dimensional means that the number of dimensions are staggeringly high — so high that calculations become extremely difficult. With high dimensional data, the number of features can exceed the number of observations. For example, microarrays, which measure gene expression, can contain tens of hundreds of samples. The common theme of these problems is that when the dimensionality increases, the volume of the space increases so fast that the available data become sparse.
+
+9. Make a few quick notes on:
+
+PCA is an acronym for Personal Computer Analysis.
+2. Use of vectors
+3. Embedded technique
+
+Ans, 1.	Principal Component Analysis (PCA) is one of the most commonly used unsupervised machine learning algorithms across a variety of applications: exploratory data analysis, dimensionality reduction, information compression, data de-noising, 
+2.	vectors are used to represent numeric characteristics, called features, of an object in a mathematical and easily analyzable way. Vectors are essential for many different areas of machine learning and pattern processing.
+3.	Embedded methods combine the qualities' of filter and wrapper methods. It's implemented by algorithms that have their own built-in feature selection methods. Some of the most popular examples of these methods are LASSO and RIDGE regression 
+
+10. Make a comparison between:
+
+1. Sequential backward exclusion vs. sequential forward selection
+2. Function selection methods: filter vs. wrapper
+3. SMC vs. Jaccard coefficient
+
+Ans. 	1. Forward selection — starts with one predictor and adds more iteratively. At each subsequent iteration, the best of the remaining original predictors are added based on performance criteria. Backward elimination — starts with all predictors and eliminates one-by-one iteratively.
+2.	Filter methods measure the relevance of features by their correlation with dependent variable while wrapper methods measure the usefulness of a subset of feature by actually training a model on it.
+3.SMC counts both mutual presences (when an attribute is present in both sets) and mutual absence (when an attribute is absent in both sets) as matches and compares it to the total number of attributes in the universe, whereas the Jaccard index only counts mutual presence as matches
+
+
