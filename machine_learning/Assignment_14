@@ -1,0 +1,95 @@
+1. What is the concept of supervised learning? What is the significance of the name?
+Ans. Supervised learning is when we have the input on which a model is to be trained and its results. Both are given to the model and the model tries to develop some relationship or equation between them.
+
+2. In the hospital sector, offer an example of supervised learning.
+Ans. in cancer detection where a model can predict whether a patient has cancer or not
+
+3. Give three supervised learning examples.
+Ans, examples of supervised learning are
+Fraud detection
+Sentiment analysis 
+Recommendation system
+
+4. In supervised learning, what are classification and regression?
+Ans. classification is when we want to classify between two or more classes while regression is when we want to predict a number from a continuous number line
+
+5. Give some popular classification algorithms as examples.
+Ans.	logistic regression , decision tree ,, random forest , support vector machine
+
+6. Briefly describe the SVM model.
+Ans.Support Vector Machine is a linear model for classification and regression problems The idea of SVM is simple: The algorithm creates a line or a hyperplane which separates the data into classes.	
+
+7. In SVM, what is the cost of misclassification?
+Ans.	 Misclassification costs are basically weights applied to specific outcomes. These weights are factored into the model and may actually change the prediction
+
+8. In the SVM model, define Support Vectors.
+Ans.	The data points or vectors that are the closest to the hyperplane and which affect the position of the hyperplane are termed as Support Vector. 
+
+9. In the SVM model, define the kernel.
+Ans.	 kernel is a function used in SVM for helping to solve problems. They provide shortcuts to avoid complex calculations. The amazing thing about kernel is that we can go to higher dimensions and perform smooth calculations with the help of it. We can go up to an infinite number of dimensions using kernels
+
+10. What are the factors that influence SVM’s effectiveness?
+Ans.	selection of kernel, kernel parameters and soft margin parameter c are the factors that influence SVM’s effectiveness.
+
+11. What are the benefits of using the SVM model?
+Ans.	SVM works relatively well when there is a clear margin of separation between classes. SVM is more effective in high dimensional spaces. SVM is effective in cases where the number of dimensions is greater than the number of samples.
+
+12. What are the drawbacks of using the SVM model?
+Ans.	SVM algorithm is not suitable for large data sets. SVM does not perform very well when the data set has more noise i.e. target classes are overlapping. In cases where the number of features for each data point exceeds the number of training data samples, the SVM will underperform.
+
+
+13. Notes should be written on
+
+1. The kNN algorithm has a validation flaw.
+2. In the kNN algorithm, the k value is chosen.
+3. A decision tree with inductive bias
+
+Ans,	1.	it does no training at all when you supply the training data. At training time, all it is doing is storing the complete data set but it does not do any calculations at this point.
+2.	n KNN, finding the value of k is not easy. A small value of k means that noise will have a higher influence on the result and a large value make it computationally expensive. Data scientists usually choose as an odd number if the number of classes is 2 and another simple approach to select k is set k=sqrt(n).
+3.	 inductive bias (also known as learning bias) of a learning algorithm is the set of assumptions that the learner uses to predict outputs of given inputs that it has not encountered. In machine learning, one aims to construct algorithms that are able to learn to predict a certain target output.
+
+14. What are some of the benefits of the kNN algorithm?
+Ans.	benefits of knn are:
+Simple to implement and intuitive to understand.
+Can learn non-linear decision boundaries when used for classfication and regression. ...
+No Training Time for classification/regression : The KNN algorithm has no explicit training step and all the work happens during prediction
+
+
+15. What are some of the kNN algorithm&#39;s drawbacks?
+Ans,	drawbacks of knn are: 
+Does not work well with large dataset as calculating distances between each data instance would be very costly.
+Does not work well with high dimensionality as this will complicate the distance calculating process to calculate distance for each dimension.
+Sensitive to noisy and missing data.
+
+16. Explain the decision tree algorithm in a few words.
+Ans,	 decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. It has a hierarchical, tree structure, which consists of a root node, branches, internal nodes and leaf nodes.
+
+17. What is the difference between a node and a leaf in a decision tree?
+Ans	Leaf nodes are the nodes of the tree that have no additional nodes coming off them. They don't split the data any further; they simply give a classification for examples that end up in that node. 
+
+18. What is a decision tree&#39;s entropy?
+Ans.	it is to calculate the purity of splits. Entropy is just a measure of disorder. (it as a measure of purity as well)
+
+19. In a decision tree, define knowledge gain.
+Ans.	The information gained in the decision tree can be defined as the amount of information improved in the nodes before splitting them for making further decisions.
+
+20. Choose three advantages of the decision tree approach and write them down.
+Ans.	decision tree has three main advantages 
+Compared to other algorithms decision trees requires less effort for data preparation during pre-processing.
+A decision tree does not require normalization of data.
+A decision tree does not require scaling of data as well.
+
+
+
+21. Make a list of three flaws in the decision tree process.
+Ans.	decision tree has three main disadvantages:
+A small change in the data can cause a large change in the structure of the decision tree causing instability.
+For a Decision tree sometimes calculation can go far more complex compared to other algorithms.
+Decision tree often involves higher time to train the model.
+
+22. Briefly describe the random forest model.
+Ans.	 Random forest is a Supervised Machine Learning Algorithm that is used widely in Classification and Regression problems. It builds decision trees on different samples and takes their majority vote for classification and average in case of regression.
+ 
+
+ 
+
